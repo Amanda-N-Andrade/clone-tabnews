@@ -1,8 +1,11 @@
 function Hello() {
-  return <h1>O medo mora perto das idéias loucas!</h1>;
+  return (
+  <>
+    <h1>O primeiro site da Vida!</h1>
+    <h2>Hello, World!</h2>
+    
+  </>);
 }
 
-function Teste() {
-  console.log("Prettier Test.");
-}
+
 export default Hello;
